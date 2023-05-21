@@ -26,7 +26,7 @@ function Counter() {
 
 export default Counter;
 ```
-##useEffect
+## useEffect
 
 The useEffect hook allows you to perform side effects in your functional components. You can use it to handle subscriptions, make API calls, update the DOM, and more. Here's a basic example of how to use useEffect:
 
@@ -52,7 +52,7 @@ function MyComponent() {
 export default MyComponent;
 
 ```
-##useRef
+## useRef
 
 The useRef hook allows you to create a mutable reference that can be used to store any value. You can use it to directly access a DOM element, maintain a reference to a mutable value, or save values between renders. Here's an example of how to use useRef:
 doesnt run another render.
@@ -78,7 +78,7 @@ export default MyComponent;
 
 ```
 
-##memo
+## memo
 The memo hook allows you to memoize a functional component to avoid unnecessary re-renders. Memo is useful when a component is re-rendered with the same props and states. Here's an example of how to use memo:
 
 ```
@@ -93,7 +93,7 @@ export default MyComponent;
 
 ```
 
-##useMemo
+## useMemo
 
 The useMemo hook allows you to memoize the result of a function to avoid expensive calculations on every render. You can use it to optimize performance by calculating values that don't change frequently. Here's an example of how to use useMemo:
 
@@ -116,7 +116,7 @@ function MyComponent({ value }) {
 export default MyComponent;
 
 ```
-##useCallback
+## useCallback
 
 The useCallback hook allows you to memoize a function to avoid recreation on every render. It is useful when passing functions as props to child components and you want to prevent unnecessary re-renders. Here's an example of how to use useCallback:
 
